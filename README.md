@@ -100,10 +100,12 @@ source edtech_rag/bin/activate
 
 # Install requirements
 pip install -r requirements.txt
+```
 
-# Create .env file
-
+### Create .env file
+```
 # Google Gemini API Configuration
+
 GOOGLE_API_KEY=your_gemini_api_key_here
 
 # Server Configuration
@@ -115,7 +117,6 @@ MAX_FILE_SIZE=50000000
 UPLOAD_DIR=uploads
 PROCESSED_DIR=processed
 VECTOR_DB_DIR=vector_db
-EOF
 
 
 ```
