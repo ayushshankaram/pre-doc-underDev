@@ -103,7 +103,7 @@ pip install -r requirements.txt
 ```
 
 ### Create .env file
-```
+```bash
 # Google Gemini API Configuration
 
 GOOGLE_API_KEY=your_gemini_api_key_here
@@ -121,6 +121,12 @@ VECTOR_DB_DIR=vector_db
 
 ```
 
+Start Server : 
+```bash
+python3 main.py
+
+#Server Starts at : http://0.0.0.0:8000/
+```
 
 
 ## 📋 Package Versions Explanation
