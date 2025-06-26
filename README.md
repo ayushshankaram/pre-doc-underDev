@@ -84,6 +84,9 @@ choco install tesseract
 
 
 
+
+```
+
 ##  Quick Setup 
 ```
 # Check Python version
@@ -97,7 +100,6 @@ source edtech_rag/bin/activate
 
 # Install requirements
 pip install -r requirements.txt
-
 
 # Create .env file
 
